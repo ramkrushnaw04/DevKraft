@@ -14,7 +14,6 @@ export default function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/techfeud" element={<TechFeud />} />
                 <Route path="/devchef" element={<DevChef />} />
-                <Route path="/leaderboard" element={<LeaderBoard />} />
                 <Route path="/team" element={<Team />} />
             </Routes>
         </Router>

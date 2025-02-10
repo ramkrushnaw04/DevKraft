@@ -78,7 +78,7 @@ const EventCard = ({ image, redirectLink, text, name }) => {
             whileHover={'whileHover'}
         >
             <p className='text-[18px]  w-full text-left px-[10px] text-orange-500'>{name}</p>
-            <div className='w-[450px] h-[450px]'>
+            <div className='w-full max-w-[450px] h-[450px]'>
                 <motion.img className='object-contain w-full h-full rounded-[20px] bg-black' src={image} alt="" 
                     variants={imageVariants}
                 />
