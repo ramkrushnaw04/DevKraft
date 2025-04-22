@@ -39,6 +39,7 @@ const Card = ({ image, name, info }) => {
                 <motion.img
                     className=' rounded-[15px] w-full h-full object-cover bg-[#0000]' src={image} alt=""
                     variants={imageVariants}
+                    loading='lazy'
                 />
             </div>
 
